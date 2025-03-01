@@ -19,3 +19,5 @@ class user:
             self._rental_price_per_day = price
         else:
             print("error")
+class capacity(user):
+    
