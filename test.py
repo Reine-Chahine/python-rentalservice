@@ -42,3 +42,7 @@ bike = engine("Yamaha", "R1", 2019, 30, 998)
 
 show_user_info(car)
 show_user_info(bike)
+
+
+print(f"Rental cost for Toyota Corolla for 3 days: ${car.calculate_rental_cost(3)}")
+print(f"Rental cost for Yamaha R1 for 5 days: ${bike.calculate_rental_cost(5)}")
