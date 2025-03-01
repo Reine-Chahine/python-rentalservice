@@ -33,3 +33,6 @@ class engine(user):
 
       def display_info(self):
         print(f"Bike: {self.brand} {self.model}, Year: {self.year}, Engine: {self.engine_capacity}cc, Rental Price: ${self._rental_price_per_day}/day")
+
+def show_user_info(user):
+     user.display_info()
