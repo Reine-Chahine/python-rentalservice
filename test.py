@@ -46,3 +46,6 @@ show_user_info(bike)
 
 print(f"Rental cost for Toyota Corolla for 3 days: ${car.calculate_rental_cost(3)}")
 print(f"Rental cost for Yamaha R1 for 5 days: ${bike.calculate_rental_cost(5)}")
+
+car.set_rental_price_per_day(55)
+print(f"Updated rental price for Toyota Corolla: ${car.get_rental_price_per_day()}/day")
