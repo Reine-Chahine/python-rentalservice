@@ -25,3 +25,5 @@ class capacity(user):
         self.seating_capacity = seating_capacity
     def display_info(self):
         print(f"Car: {self.brand} {self.model}, Year: {self.year}, Seats: {self.seating_capacity}, Rental Price: ${self._rental_price_per_day}/day")
+
+class engine(user):
