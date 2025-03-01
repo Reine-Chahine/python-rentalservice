@@ -7,3 +7,6 @@ class user:
 
     def display_info(self):
         print(f"Brand: {self.brand}, Model: {self.model}, Year: {self.year}, Rental Price: ${self._rental_price_per_day}/day")
+
+    def calculate_rental_cost(self, days):
+        return self._rental_price_per_day * days
