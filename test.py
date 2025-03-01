@@ -39,3 +39,6 @@ def show_user_info(user):
 
 car = capacity("Toyota", "Corolla", 2020, 50, 5)
 bike = engine("Yamaha", "R1", 2019, 30, 998)
+
+show_user_info(car)
+show_user_info(bike)
