@@ -4,3 +4,6 @@ class user:
         self.model = model
         self.year = year
         self._rental_price_per_day = rental_price_per_day
+
+    def display_info(self):
+        print(f"Brand: {self.brand}, Model: {self.model}, Year: {self.year}, Rental Price: ${self._rental_price_per_day}/day")
