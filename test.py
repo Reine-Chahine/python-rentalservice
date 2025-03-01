@@ -13,4 +13,9 @@ class user:
 
     def get_rental_price_per_day(self):
         return self._rental_price_per_day
-
+     
+    def set_rental_price_per_day(self, price):
+        if price > 0:
+            self._rental_price_per_day = price
+        else:
+            print("error")
