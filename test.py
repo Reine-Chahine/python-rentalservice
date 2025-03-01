@@ -10,3 +10,7 @@ class user:
 
     def calculate_rental_cost(self, days):
         return self._rental_price_per_day * days
+
+    def get_rental_price_per_day(self):
+        return self._rental_price_per_day
+
